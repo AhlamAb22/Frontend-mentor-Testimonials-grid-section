@@ -92,6 +92,16 @@ select {
 
 }
 
+/* attribution style */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 /* phone screen size */
 
 
@@ -167,11 +177,13 @@ img{
 .testimonials-grid__description{
     font-size: .8rem;
     opacity: 70%;
+    line-height: 1rem;
 }
 
 .testimonials-grid__qoute{
     margin-bottom: 1rem;
     font-size: 1.2rem;
+    line-height: 1.3rem;
 }
 
 @media (min-width: 37rem){
