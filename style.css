@@ -199,6 +199,16 @@ img{
         max-width: 68rem;
     }
 
+    .testimonials-grid__item--purple:before {
+        content: "“";
+        font-size: 22em;
+        color: #bbb;
+        position: absolute;
+        font-family: 'Arial', sans-serif;
+        opacity: 0.3;
+        mix-blend-mode: lighten;
+      }
+
     .testimonials-grid__item:first-child,
     .testimonials-grid__item:nth-child(4){
         grid-column: span 2;
